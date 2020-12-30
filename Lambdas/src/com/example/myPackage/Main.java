@@ -1,8 +1,6 @@
 package com.example.myPackage;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 public class Main {
@@ -12,7 +10,6 @@ public class Main {
                 Employee tim = new Employee("Tim buch", 21);
                 Employee jack = new Employee("Jack Hill", 40);
                 Employee snow = new Employee("Snow White", 21);
-
                 List<Employee> employees = new ArrayList<>();
                 employees.add(john);
                 employees.add(tim);
